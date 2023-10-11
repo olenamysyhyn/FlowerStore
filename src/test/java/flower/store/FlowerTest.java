@@ -3,6 +3,9 @@ package flower.store;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import flower.store.flower.Flower;
+import flower.store.flower.FlowerColor;
+
 import java.util.Random;
 
 import org.junit.jupiter.api.Assertions;
