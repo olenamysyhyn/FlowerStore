@@ -31,7 +31,6 @@ public class FlowerBucketTest {
         Flower flower = new Flower();
         flower.setFlowerType(FlowerType.ROSE);
         flower.setPrice(price);
-        flower.setPrice(10);
         FlowerPack flowerPack = new FlowerPack(flower, quantity);
         flowerBucket.addFlowerPack(flowerPack);
         Assertions.assertEquals(0.0, flowerBucket.getPrice());
